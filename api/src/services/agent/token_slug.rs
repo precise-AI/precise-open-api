@@ -21,3 +21,4 @@ pub fn token_slug_mapping() -> HashMap<&'static str, &'static str> {
     map.insert("w", "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ");
     map
 }
+ 
