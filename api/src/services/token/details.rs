@@ -34,3 +34,4 @@ pub async fn fetch_token_details(chain: &str, address: &str) -> Result<TokenDeta
         price,
     })
 }
+ 
