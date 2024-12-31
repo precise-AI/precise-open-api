@@ -24,3 +24,4 @@ sed -i.bak "s|CodeUri:.*|CodeUri: $ARTIFACT_PATH|" template.yaml
 # Deploy the stack
 echo "Deploying the stack..."
 sam deploy --guided
+ 
