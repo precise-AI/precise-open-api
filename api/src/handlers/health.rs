@@ -11,3 +11,4 @@ pub async fn handle(_: LambdaEvent<()>) -> Result<HealthResponse, Error> {
         status: "OK".to_string(),
     })
 }
+ 
