@@ -11,3 +11,4 @@ pub async fn handle(_: LambdaEvent<()>) -> Result<StatusResponse, Error> {
         message: "Service is up and running.".to_string(),
     })
 }
+ 
