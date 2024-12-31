@@ -56,3 +56,4 @@ pub async fn text_to_speech_with_openai(text: &str) -> Result<(String, String), 
     // Return the Base64-encoded audio and a dummy audio ID
     Ok((audio_base64, "openai_audio_id".to_string()))
 }
+ 
