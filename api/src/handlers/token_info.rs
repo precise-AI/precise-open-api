@@ -134,3 +134,4 @@ fn cors_headers() -> HashMap<String, String> {
     );
     headers
 }
+ 
