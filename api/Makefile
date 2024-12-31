@@ -30,3 +30,4 @@ build-TokenInfoLambda:
 	cargo build --release --target x86_64-unknown-linux-musl
 	mkdir -p $(ARTIFACTS_DIR)
 	cp ./target/x86_64-unknown-linux-musl/release/bootstrap $(ARTIFACTS_DIR)/bootstrap
+ 
